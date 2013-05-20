@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master1.master.cs" Inherits="SistemaDeTiendasVirtuales.Master1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel=StyleSheet href="css/estructura.css" type="text/css" media="screen">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+        <!-- CONTENEDOR UNIVERSAL -->
+        <div name="CONTENEDOR" class="global">
+            <!-- TOP -->
+            <div name="top" class="topUp">
+                <ul>
+                    <li>Mi Tienda</li>
+                </ul>
+            </div>
+            
+            <!-- SUBTOP - posible logo y buscador -->
+            <div name="subTop" class="subTop">
+                
+            </div>
+            
+            <!-- CONTENIDO -->
+            <div name="contenido" class="contenido">
+                 <form id="form1" runat="server">
+                    <div>
+                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                    </div>
+                </form>
+            </div>
+            
+            <!-- PIE DE PAGINA -->
+            <div name="piePagina" class="piePagina">
+                
+                <a>El uso de este sitio web implica la aceptación de los Términos y Condiciones y de las Políticas de Privacidad de LALA S.A. </a>
+                
+            </div> 
+            
+        </div>
+
+</body>
+</html>
