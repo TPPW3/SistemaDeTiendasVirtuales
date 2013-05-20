@@ -52,6 +52,10 @@
   <ItemGroup>
     <Content Include="css\estructura.css" />
     <Content Include="index.aspx" />
+    <Content Include="pag\usuario\compra.aspx" />
+    <Content Include="pag\usuario\detalle.aspx" />
+    <Content Include="pag\usuario\productos.aspx" />
+    <Content Include="pag\usuario\tiendas.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -75,11 +79,40 @@
     <Compile Include="Master1.Master.designer.cs">
       <DependentUpon>Master1.Master</DependentUpon>
     </Compile>
+    <Compile Include="pag\usuario\compra.aspx.cs">
+      <DependentUpon>compra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pag\usuario\compra.aspx.designer.cs">
+      <DependentUpon>compra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pag\usuario\detalle.aspx.cs">
+      <DependentUpon>detalle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pag\usuario\detalle.aspx.designer.cs">
+      <DependentUpon>detalle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pag\usuario\productos.aspx.cs">
+      <DependentUpon>productos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pag\usuario\productos.aspx.designer.cs">
+      <DependentUpon>productos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pag\usuario\tiendas.aspx.cs">
+      <DependentUpon>tiendas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pag\usuario\tiendas.aspx.designer.cs">
+      <DependentUpon>tiendas.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Master1.Master" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>
