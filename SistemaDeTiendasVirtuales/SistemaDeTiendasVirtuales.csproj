@@ -52,6 +52,12 @@
   <ItemGroup>
     <Content Include="css\estructura.css" />
     <Content Include="index.aspx" />
+    <Content Include="pag\administrador\estTiendas.aspx" />
+    <Content Include="pag\administrador\prodTienda.aspx" />
+    <Content Include="pag\administrador\venTienda.aspx" />
+    <Content Include="pag\logReg\activado.aspx" />
+    <Content Include="pag\logReg\confirmaMail.aspx" />
+    <Content Include="pag\logReg\logReg.aspx" />
     <Content Include="pag\usuario\compra.aspx" />
     <Content Include="pag\usuario\detalle.aspx" />
     <Content Include="pag\usuario\productos.aspx" />
@@ -78,6 +84,48 @@
     </Compile>
     <Compile Include="Master1.Master.designer.cs">
       <DependentUpon>Master1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="pag\administrador\estTiendas.aspx.cs">
+      <DependentUpon>estTiendas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pag\administrador\estTiendas.aspx.designer.cs">
+      <DependentUpon>estTiendas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pag\administrador\prodTienda.aspx.cs">
+      <DependentUpon>prodTienda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pag\administrador\prodTienda.aspx.designer.cs">
+      <DependentUpon>prodTienda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pag\administrador\venTienda.aspx.cs">
+      <DependentUpon>venTienda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pag\administrador\venTienda.aspx.designer.cs">
+      <DependentUpon>venTienda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pag\logReg\activado.aspx.cs">
+      <DependentUpon>activado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pag\logReg\activado.aspx.designer.cs">
+      <DependentUpon>activado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pag\logReg\confirmaMail.aspx.cs">
+      <DependentUpon>confirmaMail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pag\logReg\confirmaMail.aspx.designer.cs">
+      <DependentUpon>confirmaMail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pag\logReg\logReg.aspx.cs">
+      <DependentUpon>logReg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pag\logReg\logReg.aspx.designer.cs">
+      <DependentUpon>logReg.aspx</DependentUpon>
     </Compile>
     <Compile Include="pag\usuario\compra.aspx.cs">
       <DependentUpon>compra.aspx</DependentUpon>

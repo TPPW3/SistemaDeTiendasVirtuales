@@ -29,7 +29,7 @@
             <div name="contenido" class="contenido">
                  <form id="form1" runat="server">
                     <div>
-                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                     <asp:ContentPlaceHolder ID="main" runat="server">
         
                     </asp:ContentPlaceHolder>
                     </div>
