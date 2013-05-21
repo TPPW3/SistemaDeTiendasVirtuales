@@ -1,0 +1,26 @@
+﻿
+body {
+    background-color: #F2F2F2;
+}
+
+div.topHeader {
+    background-color: #FFF;
+    border-bottom: solid 1px #D8D8D8;
+}
+    ol.ulTienda li {
+    font-family: Arial,Sans-Serif,Verdana;
+    font-size: 13px;
+    }
+input.busquedaTop{
+    width: 700px;
+    height: 40px;
+}
+input.buttonBusqueda{
+    width: 100px;
+    height: 40px;
+}
+
+div.piePagina {
+    font-family: Arial,Sans-Serif,Verdana;
+    font-size: 11px;
+}

@@ -3,46 +3,62 @@ body {
     margin: 0 0 0 0 ;
 }
 
+div.topHeader {
+    margin: 0px;
+    width: 100%;
+}
+
+    div.topUp {
+	    margin: 0px auto 0px auto;
+        width: 900px;
+        height: 30px;
+    }
+    
+        ol.ulTienda {
+            margin:0;
+            margin-left: 820px;
+            list-style:none;
+	        padding: 10px;
+        }
+        
+        ol.ultienda li {
+            margin: 0px;
+            padding: 10px;   
+        }
+	
+
 div.global {
     margin: 0px auto 0px auto;
     width: 900px;
-    border: solid 1px #999;
-}
-
-div.topUp {
-    width: 100%;
-    height: 30px;
-    border: solid 1px #999;
-    text-align: right;
 }
 
 div.subTop {
-    width: 100%;
-    height: 80px;
-    border: solid 1px #999;
+    margin: 8px 0px;
+    width: 900px;
+    height: 45px;
 }
 
 div.contenido {
-    width: 100%;
-    height: 600px;
-    border: solid 1px blue;
+    width: 900px;
+    height: 800px;
+    
 }
     div.menuCategoria {
         float: left;
-        margin: 0px 0px 0px -150px;
+        margin: 0px;
         width: 150px;
         height: 600px;
-        border: solid 1px green;
+        
     }
     
     div.tiendas {
-        width: 900px;
+        width: 750px;
         height: 600px;
-        border: solid 1px brown;
+        
     }
 
 div.piePagina {
-    width: 100%;
+    text-align: center;
+    width: 900px;
     height: 30px;
-    border: solid 1px red;
 }

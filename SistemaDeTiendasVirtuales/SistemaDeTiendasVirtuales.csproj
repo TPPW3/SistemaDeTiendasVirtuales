@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\estructura.css" />
+    <Content Include="css\formato.css" />
     <Content Include="index.aspx" />
     <Content Include="pag\administrador\estTiendas.aspx" />
     <Content Include="pag\administrador\prodTienda.aspx" />
