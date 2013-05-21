@@ -32,6 +32,19 @@
  margin: 60px auto 0px auto;
  }
 
+ .tablaD {
+ width: 945px;
+ height: auto;
+ border-top:1px solid #ccc;
+ text-align:center;
+ font-family:arial,verdana,times;
+ font-size:12px;
+ margin: 60px auto 0px auto;
+ }
+
+
+
+
 .tabla .p {
  clear:both;
  width: 110%;
@@ -45,6 +58,12 @@
 }
 
 .tablaC .p {
+ clear:both;
+ width: 110%;
+ margin: 0px auto 0px auto;
+}
+
+.tablaD .p {
  clear:both;
  width: 110%;
  margin: 0px auto 0px auto;
@@ -80,6 +99,7 @@
  font-weight:bold;
  }
  
+
  .tablaC .titulo1 {
  padding: 5px;
  background-color: #ddd;
@@ -89,6 +109,17 @@
  border-right: 1px solid #ccc;
  font-weight:bold;
  }
+
+ .tablaD .titulo {
+ padding: 5px;
+ background-color: #ddd;
+ border-left: 1px solid #ccc;
+ font-family:arial,verdana,times;
+ float:left;width:145px;
+ border-right: 1px solid #ccc;
+ font-weight:bold;
+ }
+
 
 .tabla .columna {
  padding: 5px;
@@ -108,7 +139,8 @@
  background-color:#eee;
  }
  
-  .tablaC .columna {
+ 
+.tablaC .columna {
  padding: 5px;
  float:left;width:85px;
  border-left: 1px solid #ccc;
@@ -116,6 +148,17 @@
  border-bottom: 1px solid #ccc;
  background-color:#eee;
  }
+ 
+ .tablaD .columna {
+ padding: 5px;
+ float:left;width:145px;
+ border-left: 1px solid #ccc;
+ border-right: 1px solid #ccc;
+ border-bottom: 1px solid #ccc;
+ background-color:#eee;
+ }
+ 
+ 
  
  .tablaB .columna1 {
  padding: 5px;
@@ -156,6 +199,9 @@
  background-color:#eee;
  }
  
+
+ 
+ 
  
  .fecha
  {
@@ -169,6 +215,26 @@
       }
       
    .agregar
+   {
+       margin: 100px auto 0px 10px 
+       }
+       
+       
+   #registro 
+   {
+        font-family:arial,verdana,times;
+        font-size:12px;
+        margin: 50px auto 0px auto
+       }  
+    
+     #registro .crear
+     {
+         margin: 40px auto 0px 0px; 
+         padding: 5px;
+         width:70px;
+         }
+         
+      .grabar
    {
        margin: 100px auto 0px 10px 
        }
