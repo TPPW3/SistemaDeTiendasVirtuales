@@ -5,8 +5,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link rel=StyleSheet href="css/estructura.css" type="text/css" media="screen">
-    <link rel=StyleSheet href="css/formato.css" type="text/css" media="screen">
+    <link rel="StyleSheet" href="css/estructura.css" type="text/css" media="screen"/>
+    <link rel="StyleSheet" href="css/formato.css" type="text/css" media="screen"/>
+    <link rel="Stylesheet" href="~/css/estructura2.css" type="text/css" media="screen"/>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>

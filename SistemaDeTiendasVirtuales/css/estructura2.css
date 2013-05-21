@@ -1,0 +1,174 @@
+﻿body {
+      margin: 0 0 0 0 ;
+}
+
+.tabla {
+ width: 655px;
+ height: auto;
+ border-top:1px solid #ccc;
+ text-align:center;
+ font-family:arial,verdana,times;
+ font-size:12px;
+ margin: 50px auto 0px auto;
+ }
+
+.tablaB {
+ width: 650px;
+ height: auto;
+ border-top:1px solid #ccc;
+ text-align:center;
+ font-family:arial,verdana,times;
+ font-size:12px;
+ margin: 50px auto 0px auto;
+ }
+ 
+ .tablaC {
+ width: 745px;
+ height: auto;
+ border-top:1px solid #ccc;
+ text-align:center;
+ font-family:arial,verdana,times;
+ font-size:12px;
+ margin: 60px auto 0px auto;
+ }
+
+.tabla .p {
+ clear:both;
+ width: 110%;
+ margin: 0px auto 0px auto;
+}
+
+.tablaB .p {
+ clear:both;
+ width: 110%;
+ margin: 0px auto 0px auto;
+}
+
+.tablaC .p {
+ clear:both;
+ width: 110%;
+ margin: 0px auto 0px auto;
+}
+
+.tabla .titulo {
+ padding: 5px;
+ background-color: #ddd;
+ border-left: 1px solid #ccc;
+ font-family:arial,verdana,times;
+ float:left;width:152px;
+ border-right: 1px solid #ccc;
+ font-weight:bold;
+ }
+ 
+ .tablaB .titulo {
+ padding: 5px;
+ background-color: #ddd;
+ border-left: 1px solid #ccc;
+ font-family:arial,verdana,times;
+ float:left;width:205px;
+ border-right: 1px solid #ccc;
+ font-weight:bold;
+ }
+ 
+  .tablaC .titulo {
+ padding: 5px;
+ background-color: #ddd;
+ border-left: 1px solid #ccc;
+ font-family:arial,verdana,times;
+ float:left;width:85px;
+ border-right: 1px solid #ccc;
+ font-weight:bold;
+ }
+ 
+ .tablaC .titulo1 {
+ padding: 5px;
+ background-color: #ddd;
+ border-left: 1px solid #ccc;
+ font-family:arial,verdana,times;
+ float:left;width:150px;
+ border-right: 1px solid #ccc;
+ font-weight:bold;
+ }
+
+.tabla .columna {
+ padding: 5px;
+ float:left;width:152px;height:50;
+ border-left: 1px solid #ccc;
+ border-right: 1px solid #ccc;
+ border-bottom: 1px solid #ccc;
+ background-color:#eee;
+ }
+ 
+ .tablaB .columna {
+ padding: 5px;
+ float:left;width:205px;height:50;
+ border-left: 1px solid #ccc;
+ border-right: 1px solid #ccc;
+ border-bottom: 1px solid #ccc;
+ background-color:#eee;
+ }
+ 
+  .tablaC .columna {
+ padding: 5px;
+ float:left;width:85px;
+ border-left: 1px solid #ccc;
+ border-right: 1px solid #ccc;
+ border-bottom: 1px solid #ccc;
+ background-color:#eee;
+ }
+ 
+ .tablaB .columna1 {
+ padding: 5px;
+ float:left;width:423px;
+ border-right: 1px solid #ccc;
+ border-bottom:1px solid #ccc;
+ border-right: 1px solid #ccc;
+ border-left:1px solid #ccc;
+ background-color: #ddd;
+ }
+
+
+
+.tabla .columna2 {
+ padding: 1px;
+ float:left;width:160px;height:50;
+ border-left: 1px solid #ccc;
+ border-right: 1px solid #ccc;
+ border-bottom: 1px solid #ccc;
+ background-color:#eee;
+ }
+ 
+ .tablaC .columna3 {
+ padding: 1.5px;
+ float:left;width:76px;
+ border-left: 1px solid #ccc;
+ border-right: 1px solid #ccc;
+ border-bottom: 1px solid #ccc;
+ background-color:#eee;
+ }
+ 
+ .tablaC .columna4 {
+ padding: 1.5px;
+ float:left;width:76px;
+ border-left: 1px solid #ccc;
+ border-right: 1px solid #ccc;
+ border-bottom: 1px solid #ccc;
+ background-color:#eee;
+ }
+ 
+ 
+ .fecha
+ {
+   font-family:arial,verdana,times;  
+   margin: 100px auto 0px 350px  
+     }
+     
+  .cuenta
+  {
+     margin: 100px auto 0px 378px  
+      }
+      
+   .agregar
+   {
+       margin: 100px auto 0px 10px 
+       }

@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\estructura.css" />
+    <Content Include="css\estructura2.css" />
     <Content Include="css\formato.css" />
     <Content Include="index.aspx" />
     <Content Include="pag\administrador\estTiendas.aspx" />
@@ -63,7 +64,11 @@
     <Content Include="pag\usuario\detalle.aspx" />
     <Content Include="pag\usuario\productos.aspx" />
     <Content Include="pag\usuario\tiendas.aspx" />
-    <Content Include="pag\vendedor\misproductos.aspx" />
+    <Content Include="pag\vendedor\administracionDeCompras.aspx" />
+    <Content Include="pag\vendedor\administracionDeProductos.aspx" />
+    <Content Include="pag\vendedor\administracionDeTiendasVirtuales.aspx" />
+    <Content Include="pag\vendedor\agregarProd.aspx" />
+    <Content Include="pag\vendedor\editarProd.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -157,12 +162,40 @@
     <Compile Include="pag\usuario\tiendas.aspx.designer.cs">
       <DependentUpon>tiendas.aspx</DependentUpon>
     </Compile>
-    <Compile Include="pag\vendedor\misproductos.aspx.cs">
-      <DependentUpon>misproductos.aspx</DependentUpon>
+    <Compile Include="pag\vendedor\administracionDeCompras.aspx.cs">
+      <DependentUpon>administracionDeCompras.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="pag\vendedor\misproductos.aspx.designer.cs">
-      <DependentUpon>misproductos.aspx</DependentUpon>
+    <Compile Include="pag\vendedor\administracionDeCompras.aspx.designer.cs">
+      <DependentUpon>administracionDeCompras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pag\vendedor\administracionDeProductos.aspx.cs">
+      <DependentUpon>administracionDeProductos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pag\vendedor\administracionDeProductos.aspx.designer.cs">
+      <DependentUpon>administracionDeProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pag\vendedor\administracionDeTiendasVirtuales.aspx.cs">
+      <DependentUpon>administracionDeTiendasVirtuales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pag\vendedor\administracionDeTiendasVirtuales.aspx.designer.cs">
+      <DependentUpon>administracionDeTiendasVirtuales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pag\vendedor\agregarProd.aspx.cs">
+      <DependentUpon>agregarProd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pag\vendedor\agregarProd.aspx.designer.cs">
+      <DependentUpon>agregarProd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pag\vendedor\editarProd.aspx.cs">
+      <DependentUpon>editarProd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pag\vendedor\editarProd.aspx.designer.cs">
+      <DependentUpon>editarProd.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
