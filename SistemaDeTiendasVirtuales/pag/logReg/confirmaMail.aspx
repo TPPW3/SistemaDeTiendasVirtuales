@@ -1,16 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="confirmaMail.aspx.cs" Inherits="SistemaDeTiendasVirtuales.pag.logReg.confirmaMail" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="confirmaMail.aspx.cs" Inherits="SistemaDeTiendasVirtuales.pag.logReg.confirmaMail" MasterPageFile="~/Master1.Master" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    
-    </div>
-    </form>
-</body>
-</html>
+<asp:Content ID="Confirmacion" runat="server" ContentPlaceHolderID="main">
+<form id=confirmacion runat=server>
+<br>Felicitaciones
+<br>Debe confirmar su registración llendo al link que le enviamos por mail
+<br><asp:Button ID="Button3" runat="server" Text="Inicio" />
+</form>
+</asp:Content>
