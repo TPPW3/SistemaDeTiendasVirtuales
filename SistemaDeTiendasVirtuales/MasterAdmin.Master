@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterAdmin.master.cs" Inherits="SistemaDeTiendasVirtuales.MasterAdmin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link rel="StyleSheet" href="css/estructura.css" type="text/css" media="screen"/>
+    <link rel="StyleSheet" href="css/formato.css" type="text/css" media="screen"/>
+    <link rel="Stylesheet" href="~/css/estructura2.css" type="text/css" media="screen"/>
+     <link rel="Stylesheet" href="~/css/login.css" type="text/css" media="screen"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+        <!-- ENCABEZADO -->
+        <div class="topHeader">
+            
+            <!-- TOP -->
+            <div class="topUp">
+                
+                <ol class="ulTienda">
+                 <li><a href="../../index.aspx">Salir</a></li>
+                </ol>
+                
+                
+            </div>
+        </div>
+        
+        <!-- CONTENEDOR UNIVERSAL -->
+        <div class="global">
+            
+            <!-- SUBTOP - posible logo y buscador -->
+            
+            <!-- CONTENIDO -->
+
+            <div>
+                
+                    <div>
+                     <asp:ContentPlaceHolder ID="main" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                    </div>
+
+            </div>
+            
+            <!-- PIE DE PAGINA -->
+            <div class="piePagina">
+                
+                <a>El uso de este sitio web implica la aceptación de los Términos y Condiciones y de las Políticas de Privacidad de tutienda.com </a>
+                
+            </div> 
+            
+        </div>
+
+</body>
+</html>
