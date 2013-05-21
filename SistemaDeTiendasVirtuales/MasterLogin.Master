@@ -8,7 +8,6 @@
     <link rel="StyleSheet" href="css/estructura.css" type="text/css" media="screen"/>
     <link rel="StyleSheet" href="css/formato.css" type="text/css" media="screen"/>
     <link rel="Stylesheet" href="~/css/estructura2.css" type="text/css" media="screen"/>
-     <link rel="Stylesheet" href="~/css/login.css" type="text/css" media="screen"/>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>

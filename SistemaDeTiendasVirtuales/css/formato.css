@@ -24,3 +24,15 @@ div.piePagina {
     font-family: Arial,Sans-Serif,Verdana;
     font-size: 11px;
 }
+
+/*-------------CATEGORIA MENU -----------------*/
+ul.categoriaMenu {
+    list-style: square;
+    font-family: Helvetica,Arial,Sans-serif;
+    font-size: 13px;
+}
+
+div.tiendas 
+{
+    border: solid 1px Silver;
+    }

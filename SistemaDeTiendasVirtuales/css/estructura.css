@@ -27,7 +27,9 @@ div.topHeader {
         }
 	
 
-div.global {
+div.global 
+{
+    position: relative;
     margin: 0px auto 0px auto;
     width: 900px;
 }
@@ -37,28 +39,58 @@ div.subTop {
     width: 900px;
     height: 45px;
 }
-
-div.contenido {
+/* -----------------------------------------CONTENIDOS-----------------------------------*/
+div.contenido 
+{
+    margin:20px 0;
     width: 900px;
     height: 800px;
-    
 }
-    div.menuCategoria {
-        float: left;
-        margin: 0px;
-        width: 150px;
-        height: 600px;
-        
-    }
-    
-    div.tiendas {
-        width: 750px;
-        height: 600px;
-        
-    }
+        div.menuCategoria {
+            float: left;
+            margin: 0px;
+            width: 200px;
+        }
+            ul.categoriaMenu 
+            {   margin:0 0 0 0;
+                padding: 0 0 0 0;
+                }
+                
+            ul.categoriaMenu li    
+            {
+                padding: 5px 0 0 0;
+                }
+                
+        div.tiendas 
+        {
+            margin:10px 0 0 240px;
+            width: 650px;
+            height: 556px;   
+        }
 
-div.piePagina {
+/* -----------------------------------------PIE PAGINA-----------------------------------*/
+div.piePagina 
+{   clear:left;
+    margin: 0px auto 0px auto;
     text-align: center;
     width: 900px;
     height: 30px;
 }
+
+/* -----------------------------------------LOGIN REGISTRACION-----------------------------------*/
+div.logReg
+{   width: 400px;
+    margin: 100px auto 0px auto;
+    height: 600px;
+}
+div.contenidoLogin 
+{   width: 200px;
+    float: left;
+    text-align: center;
+    }
+ 
+div.contenidoRegistro 
+{   width: 200px;
+    float: left;
+    text-align: center;
+    }
