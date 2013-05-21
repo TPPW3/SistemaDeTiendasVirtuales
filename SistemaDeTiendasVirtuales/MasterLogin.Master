@@ -19,12 +19,11 @@
             
             <!-- TOP -->
             <div class="topUp">
-                <asp:ContentPlaceHolder ID="top" runat="server">
+                
                 <ol class="ulTienda">
-                    
-                    <li>Volver</li>
-                 </asp:ContentPlaceHolder>
+                 <li><a href="../../index.aspx">Volver</a></li>
                 </ol>
+                
                 
             </div>
         </div>
