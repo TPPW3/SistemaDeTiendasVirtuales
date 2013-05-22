@@ -6,7 +6,7 @@
 
     <div class="logReg">
         <div class="contenidoLogin">
-            <br />Logueate
+            <br /><a>Logueate</a>
             <br /><asp:TextBox ID="TextBox1" runat="server">Email</asp:TextBox>
             <br /><asp:TextBox ID="TextBox2" runat="server">Contraseña</asp:TextBox>
             <br /><asp:Button ID="Button1" runat="server" Text="Entrar" onclick="Button1_Click"/>
@@ -16,7 +16,7 @@
     
         <div class="contenidoRegistro">
 
-            <br />Registrate
+            <br /><a>Registrate</a>
             <br /><asp:TextBox ID="TextBox3" runat="server">Razon Social</asp:TextBox>
             <br /><asp:TextBox ID="TextBox4" runat="server">CUIT</asp:TextBox>
             <br /><asp:TextBox ID="TextBox5" runat="server">Mail</asp:TextBox>

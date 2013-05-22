@@ -50,7 +50,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\login.css" />
     <Content Include="css\estructura.css" />
     <Content Include="css\estructura2.css" />
     <Content Include="css\formato.css" />
@@ -232,6 +231,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="TiendaVirtual.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

@@ -5,7 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Tu Tienda.com</title>
-
     <link rel="StyleSheet" href="css/formato.css" type="text/css" media="screen"/>
     <link rel="StyleSheet" href="css/estructura.css" type="text/css" media="screen"/>
     <link rel="Stylesheet" href="~/css/estructura2.css" type="text/css" media="screen"/>
@@ -13,7 +12,7 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-
+    
         <!-- ENCABEZADO -->
         <div class="topHeader">
             
@@ -22,8 +21,9 @@
                 
                 <ol class="ulTienda">
                     
-                    <li>Mi Tienda</li>
-
+                    
+                    
+                    <li><a href="pag/logReg/logReg.aspx">mi Tienda</a></li>
                 </ol>
                 
             </div>
@@ -35,7 +35,14 @@
             
             <!-- SUBTOP - posible logo y buscador -->
             <div class="subTop">
-                <a>TU TIENDA</a> <input class="busquedaTop" type="text"> <input class="buttonBusqueda" type="button" value="Buscar">    
+
+                <div class="logo">
+                </div>
+
+                <div class="buscador">
+                   <form action="pag/usuario/tiendas.aspx"> <input class="busquedaTop" type="text" /> <input class="buttonBusqueda" type="submit" value="Buscar Tienda" /></form>
+                </div>
+               
             </div>
             
             <!-- CONTENIDO -->
@@ -53,13 +60,6 @@
             </div>
                       
         </div>
-
-        <!-- PIE DE PAGINA -->  
-        <div class="piePagina">
-                
-            <a>El uso de este sitio web implica la aceptación de los Términos y Condiciones y de las Políticas de Privacidad de tutienda.com </a>
-                
-        </div> 
 
 </body>
 </html>

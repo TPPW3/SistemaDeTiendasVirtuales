@@ -4,10 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
-    <title></title>
+
+    <title>Tu Tienda.com</title>
     <link rel="StyleSheet" href="css/estructura.css" type="text/css" media="screen"/>
     <link rel="StyleSheet" href="css/formato.css" type="text/css" media="screen"/>
     <link rel="Stylesheet" href="~/css/estructura2.css" type="text/css" media="screen"/>
+    
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -43,13 +45,6 @@
                     </div>
 
             </div>
-            
-            <!-- PIE DE PAGINA -->
-            <div class="piePagina">
-                
-                <a>El uso de este sitio web implica la aceptación de los Términos y Condiciones y de las Políticas de Privacidad de tutienda.com </a>
-                
-            </div> 
             
         </div>
 

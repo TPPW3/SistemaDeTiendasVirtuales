@@ -5,7 +5,7 @@
     <div class="menuCategoria">
 
             <ul class="categoriaMenu">
-
+                //posible vista de categorias//
                 <li>Accesorios para Veh&iacute;culos</li>
                 <li>Animales y Mascotas</li>
                 <li>Antigüedades</li>

@@ -39,17 +39,37 @@ div.subTop {
     width: 900px;
     height: 45px;
 }
+                
+        div.logo 
+        {
+            background-image: url(../img/tutienda.png);
+            float: left;
+            margin: 0px;
+            width: 250px;
+            height: 45px;
+            background-size: 250px;
+            }
+            
+        div.buscador 
+        {
+            float: left;
+            width: 650px;
+            }
+         
+            
 /* -----------------------------------------CONTENIDOS-----------------------------------*/
 div.contenido 
 {
+    clear: left;
     margin:20px 0;
     width: 900px;
-    height: 800px;
+    height: 700px;
 }
+        /*--------------Index ------------------*/
         div.menuCategoria {
             float: left;
             margin: 0px;
-            width: 200px;
+            width: 250px;
         }
             ul.categoriaMenu 
             {   margin:0 0 0 0;
@@ -63,34 +83,44 @@ div.contenido
                 
         div.tiendas 
         {
-            margin:10px 0 0 240px;
+            margin:10px 0 0 248px;
             width: 650px;
-            height: 556px;   
+            height: 550px;   
         }
+        /*-------------- FIN Index ------------------*/  
+        
+        /* -----------------------------------------LOGIN REGISTRACION-----------------------------------*/
 
-/* -----------------------------------------PIE PAGINA-----------------------------------*/
-div.piePagina 
-{   clear:left;
-    margin: 0px auto 0px auto;
-    text-align: center;
-    width: 900px;
-    height: 30px;
-}
+        div.logReg
+        {   width: 600px;
+            margin: 0px auto 0px auto;
+            height: 800px;
+            }
 
-/* -----------------------------------------LOGIN REGISTRACION-----------------------------------*/
-div.logReg
-{   width: 400px;
-    margin: 100px auto 0px auto;
-    height: 600px;
-}
-div.contenidoLogin 
-{   width: 200px;
-    float: left;
-    text-align: center;
-    }
+        div.contenidoLogin                                                                                                                  
+        {   width: 300px;
+            float: left;
+            text-align: center;
+            }
  
-div.contenidoRegistro 
-{   width: 200px;
-    float: left;
-    text-align: center;
-    }
+        div.contenidoRegistro 
+        {   width: 300px;
+            float: left;
+            text-align: center;
+            }
+        /* -----------------------------------------FIN LOGIN REGISTRACION-----------------------------------*/
+        
+         /* -----------------------------------------MENSAJE DE CONFIR MACION REGISTRO-----------------------------------*/
+        div.contenidoMensaje 
+        {
+            text-align: center;
+            margin: 0 auto 0 auto;
+            width: 900px
+            
+            }
+        div.contenidoMensaje img 
+        { 
+            width: 25%;
+            }
+         
+            
