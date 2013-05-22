@@ -15,9 +15,9 @@
     <div class="tablaC">
         
         <div class="p"> <div class="titulo">Nombre </div><div class="titulo">Descripcion</div><div class="titulo">Stock</div><div class="titulo">Precio</div> <div class="titulo">Categoria</div><div class="titulo">Imagen</div><div class="titulo1">Operaciones</div></div>
-        <div class="p"> <div class="columna">datos1  </div><div class="columna">datos2</div><div class="columna">datos3</div><div class="columna">datos4</div><div class="columna">datos5</div><div class="columna">datos6</div><div class="columna3"><asp:Button ID="Button1" runat="server" Text="Modificar" onclick="Button1_Click"/></div><div class="columna4"><asp:Button ID="Button2" runat="server" Text="Eliminar" onclick="Button1_Click"/></div></div>
+        <div class="p"> <div class="columna">datos1  </div><div class="columna">datos2</div><div class="columna">datos3</div><div class="columna">datos4</div><div class="columna">datos5</div><div class="columna">datos6</div><div class="columna3"><asp:Button ID="Button1" runat="server" Text="Modificar" onclick="Button1_Click"/></div><div class="columna4"><asp:Button ID="Button2" runat="server" Text="Eliminar" onclick="Button2_Click"/></div></div>
         
-        <div class="agregar"><asp:Button ID="Button3" runat="server" Text="Agregar" onclick="Button1_Click"/></div>
+        <div class="agregar"><asp:Button ID="Button3" runat="server" Text="Agregar" onclick="Button3_Click"/></div>
         
     </div> 
     
