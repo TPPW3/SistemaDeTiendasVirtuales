@@ -30,7 +30,19 @@ namespace SistemaDeTiendasVirtuales.pag.vendedor
         {
             Response.Redirect("agregarProd.aspx");
         }
-    
+
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("confCuenta.aspx");
+        }
+
+        protected void Button5_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("misVentas.aspx");
+        }
+
+
     
     }
 }

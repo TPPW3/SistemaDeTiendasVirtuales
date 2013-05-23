@@ -20,8 +20,13 @@
             <div class="topUp">
                 
               <ol class="ulTienda">
-                 <li><a href="../../index.aspx">Inicio</a></li>
-                </ol>
+                 
+                 <li><a href="/index.aspx">Inicio</a></li>
+                
+                 
+                  
+               </ol>
+                
                 
             </div>
             
