@@ -1,240 +1,270 @@
-﻿body {
-      margin: 0 0 0 0 ;
+﻿body
+{
+    margin: 0 0 0 0;
 }
 
-.tabla {
- width: 655px;
- height: auto;
- border-top:1px solid #ccc;
- text-align:center;
- font-family:arial,verdana,times;
- font-size:12px;
- margin: 50px auto 0px auto;
- }
-
-.tablaB {
- width: 650px;
- height: auto;
- border-top:1px solid #ccc;
- text-align:center;
- font-family:arial,verdana,times;
- font-size:12px;
- margin: 50px auto 0px auto;
- }
- 
- .tablaC {
- width: 745px;
- height: auto;
- border-top:1px solid #ccc;
- text-align:center;
- font-family:arial,verdana,times;
- font-size:12px;
- margin: 60px auto 0px auto;
- }
-
- .tablaD {
- width: 945px;
- height: auto;
- border-top:1px solid #ccc;
- text-align:center;
- font-family:arial,verdana,times;
- font-size:12px;
- margin: 60px auto 0px auto;
- }
 
 
-
-
-.tabla .p {
- clear:both;
- width: 110%;
- margin: 0px auto 0px auto;
+.tablaB
+{
+    width: 649px;
+    height: auto;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    font-family: arial,verdana,times;
+    font-size: 12px;
+    margin: 50px auto 0px auto;
 }
 
-.tablaB .p {
- clear:both;
- width: 110%;
- margin: 0px auto 0px auto;
+.tablaC
+{
+    width: 745px;
+    height: auto;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    font-family: arial,verdana,times;
+    font-size: 12px;
+    margin: 60px auto 0px auto;
 }
 
-.tablaC .p {
- clear:both;
- width: 110%;
- margin: 0px auto 0px auto;
+.tablaD
+{
+    width: 950px;
+    height: auto;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    font-family: arial,verdana,times;
+    font-size: 12px;
+    margin: 60px auto 0px auto;
 }
 
-.tablaD .p {
- clear:both;
- width: 110%;
- margin: 0px auto 0px auto;
+
+
+
+
+
+.tablaB .p
+{
+    clear: both;
+    width: 110%;
+    margin: 0px auto 0px auto;
 }
 
-.tabla .titulo {
- padding: 5px;
- background-color: #ddd;
- border-left: 1px solid #ccc;
- font-family:arial,verdana,times;
- float:left;width:152px;
- border-right: 1px solid #ccc;
- font-weight:bold;
- }
- 
- .tablaB .titulo {
- padding: 5px;
- background-color: #ddd;
- border-left: 1px solid #ccc;
- font-family:arial,verdana,times;
- float:left;width:205px;
- border-right: 1px solid #ccc;
- font-weight:bold;
- }
- 
-  .tablaC .titulo {
- padding: 5px;
- background-color: #ddd;
- border-left: 1px solid #ccc;
- font-family:arial,verdana,times;
- float:left;width:85px;
- border-right: 1px solid #ccc;
- font-weight:bold;
- }
- 
+.tablaC .p
+{
+    clear: both;
+    width: 110%;
+    margin: 0px auto 0px auto;
+}
 
- .tablaC .titulo1 {
- padding: 5px;
- background-color: #ddd;
- border-left: 1px solid #ccc;
- font-family:arial,verdana,times;
- float:left;width:150px;
- border-right: 1px solid #ccc;
- font-weight:bold;
- }
-
- .tablaD .titulo {
- padding: 5px;
- background-color: #ddd;
- border-left: 1px solid #ccc;
- font-family:arial,verdana,times;
- float:left;width:145px;
- border-right: 1px solid #ccc;
- font-weight:bold;
- }
-
-
-.tabla .columna {
- padding: 5px;
- float:left;width:152px;height:50;
- border-left: 1px solid #ccc;
- border-right: 1px solid #ccc;
- border-bottom: 1px solid #ccc;
- background-color:#eee;
- }
- 
- .tablaB .columna {
- padding: 5px;
- float:left;width:205px;height:50;
- border-left: 1px solid #ccc;
- border-right: 1px solid #ccc;
- border-bottom: 1px solid #ccc;
- background-color:#eee;
- }
- 
- 
-.tablaC .columna {
- padding: 5px;
- float:left;width:85px;
- border-left: 1px solid #ccc;
- border-right: 1px solid #ccc;
- border-bottom: 1px solid #ccc;
- background-color:#eee;
- }
- 
- .tablaD .columna {
- padding: 5px;
- float:left;width:145px;
- border-left: 1px solid #ccc;
- border-right: 1px solid #ccc;
- border-bottom: 1px solid #ccc;
- background-color:#eee;
- }
- 
- 
- 
- .tablaB .columna1 {
- padding: 5px;
- float:left;width:423px;
- border-right: 1px solid #ccc;
- border-bottom:1px solid #ccc;
- border-right: 1px solid #ccc;
- border-left:1px solid #ccc;
- background-color: #ddd;
- }
+.tablaD .p
+{
+    clear: both;
+    width: 110%;
+    margin: 0px auto 0px auto;
+}
 
 
 
-.tabla .columna2 {
- padding: 1px;
- float:left;width:160px;height:50;
- border-left: 1px solid #ccc;
- border-right: 1px solid #ccc;
- border-bottom: 1px solid #ccc;
- background-color:#eee;
- }
- 
- .tablaC .columna3 {
- padding: 1.5px;
- float:left;width:76px;
- border-left: 1px solid #ccc;
- border-right: 1px solid #ccc;
- border-bottom: 1px solid #ccc;
- background-color:#eee;
- }
- 
- .tablaC .columna4 {
- padding: 1.5px;
- float:left;width:76px;
- border-left: 1px solid #ccc;
- border-right: 1px solid #ccc;
- border-bottom: 1px solid #ccc;
- background-color:#eee;
- }
- 
+.tablaB .titulo
+{
+    padding: 5px;
+    background-color: #ddd;
+    border-left: 1px solid #ccc;
+    font-family: arial,verdana,times;
+    float: left;
+    width: 150px;
+    border-right: 1px solid #ccc;
+    font-weight: bold;
+}
 
- 
- 
- 
- .fecha
- {
-   font-family:arial,verdana,times;  
-   margin: 100px auto 0px 350px  
-     }
-     
-  .cuenta
-  {
-     margin: 100px auto 0px 378px  
-      }
-      
-   .agregar
-   {
-       margin: 100px auto 0px 10px 
-       }
-       
-       
-   #registro 
-   {
-        font-family:arial,verdana,times;
-        font-size:12px;
-        margin: 50px auto 0px auto
-       }  
+.tablaC .titulo
+{
+    padding: 5px;
+    background-color: #ddd;
+    border-left: 1px solid #ccc;
+    font-family: arial,verdana,times;
+    float: left;
+    width: 85px;
+    border-right: 1px solid #ccc;
+    font-weight: bold;
+}
+
+
+.tablaC .titulo1
+{
+    padding: 5px;
+    background-color: #ddd;
+    border-left: 1px solid #ccc;
+    font-family: arial,verdana,times;
+    float: left;
+    width: 150px;
+    border-right: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.tablaD .titulo
+{
+    padding: 5px;
+    background-color: #ddd;
+    border-left: 1px solid #ccc;
+    font-family: arial,verdana,times;
+    float: left;
+    width: 145px;
+    border-right: 1px solid #ccc;
+    font-weight: bold;
+}
+
+
+
+.tablaB .columna
+{
+    padding: 5px;
+    float: left;
+    width: 150px;
+    height: 50;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+}
+
+
+.tablaC .columna
+{
+    padding: 5px;
+    float: left;
+    width: 85px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+}
+
+.tablaD .columna
+{
+    padding: 5px;
+    float: left;
+    width: 145px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+}
+
+.tablaD .columna2
+{
+    padding: 5px;
+    float: left;
+    width: 300px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+}
+
+
+.tablaB .columna1
+{
+    padding: 5px;
+    float: left;
+    width: 474px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    background-color: #ddd;
+}
+
+
+
+.tablaB .columna2
+{
+    padding: 1px;
+    float: left;
+    width: 158px;
+    height: 50;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
     
-     #registro .crear
-     {
-         margin: 40px auto 0px 0px; 
-         padding: 5px;
-         width:70px;
-         }
-         
-      .grabar
-   {
-       margin: 100px auto 0px 10px 
-       }
+
+}
+
+.tablaC .columna3
+{
+    padding: 1.3px;
+    float: left;
+    width: 76px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+}
+
+.tablaC .columna4
+{
+    padding: 1.3px;
+    float: left;
+    width: 76px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
+}
+
+
+
+
+
+.fecha
+{
+    font-family: arial,verdana,times;
+    margin: 50px auto 0px 350px;
+}
+
+.cuenta
+{
+    margin: 100px auto 0px 378px;
+}
+
+.agregar
+{
+    margin: 10px auto 0px 4px;
+}
+
+.ventas
+{
+    margin: 100px 0px 0px 0px;
+}
+.guardar
+{
+    margin: 20px auto 0px 0px;
+}
+.tablaC .confcuenta
+{
+    margin: 10px auto 0px 5px;
+}
+#registro
+{
+    font-family: arial,verdana,times;
+    font-size: 12px;
+    margin: 50px auto 0px auto;
+}
+
+.Titulo
+{
+    font-family: arial,verdana,times;
+    font-size: 12px;
+    text-align: center;
+}
+
+#registro .crear
+{
+    margin: 40px auto 0px 0px;
+    padding: 5px;
+    width: 70px;
+}
+
+
