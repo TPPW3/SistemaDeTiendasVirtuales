@@ -3,11 +3,10 @@
 <asp:Content ID="Activado" runat="server" ContentPlaceHolderID="main">
 <form id="activado" runat="server">
 
-<div class="contenidoLogin">
-<br />Felicitaciones
-<br />Ha activado su Tienda
-<br />
-<br />
+<div class="contenidoMensaje">
+<p>Felicitaciones</p>
+<a>Ha activado su Tienda</a><br />
+<a href="../../index.aspx" ><img src="../../img/tutienda.png" /></a>
 </div>
 
 </form>
