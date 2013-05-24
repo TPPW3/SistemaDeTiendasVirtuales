@@ -35,7 +35,7 @@
             <div class="subTop">
 
                 <div class="logo">
-                  
+                  <a href="index.aspx"><img src="img/tuTienda.png" href="index.php" /></a> 
                 </div>
 
                 <div class="buscador">

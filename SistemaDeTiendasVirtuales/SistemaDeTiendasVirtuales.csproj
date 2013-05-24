@@ -89,13 +89,6 @@
     <Compile Include="MasterUsuario.Master.designer.cs">
       <DependentUpon>MasterUsuario.Master</DependentUpon>
     </Compile>
-    <Compile Include="MasterUsurio.Master.cs">
-      <DependentUpon>MasterUsurio.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="MasterUsurio.Master.designer.cs">
-      <DependentUpon>MasterUsurio.Master</DependentUpon>
-    </Compile>
     <Compile Include="MasterLogin.Master.cs">
       <DependentUpon>MasterLogin.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -204,9 +197,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="img\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="MasterUsurio.Master" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="MasterUsuario.Master" />

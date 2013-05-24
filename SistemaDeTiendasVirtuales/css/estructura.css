@@ -42,13 +42,12 @@ div.subTop {
                 
         div.logo 
         {
-            background-image: url(../img/tutienda.png);
             float: left;
             margin: 0px;
             width: 250px;
             height: 31px;
-            background-size: 250px;
             }
+        div.logo img {width: 200px;}
             
         div.buscador 
         {
