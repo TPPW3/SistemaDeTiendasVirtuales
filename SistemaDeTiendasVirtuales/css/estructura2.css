@@ -18,7 +18,7 @@
 
 .tablaC
 {
-    width: 745px;
+    width: 757px;
     height: auto;
     border-top: 1px solid #ccc;
     text-align: center;
@@ -85,7 +85,7 @@
     border-left: 1px solid #ccc;
     font-family: arial,verdana,times;
     float: left;
-    width: 85px;
+    width: 88px;
     border-right: 1px solid #ccc;
     font-weight: bold;
 }
@@ -98,7 +98,7 @@
     border-left: 1px solid #ccc;
     font-family: arial,verdana,times;
     float: left;
-    width: 150px;
+    width: 147.5px;
     border-right: 1px solid #ccc;
     font-weight: bold;
 }
@@ -122,7 +122,7 @@
     padding: 5px;
     float: left;
     width: 150px;
-    height: 50;
+    height: auto;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
@@ -132,9 +132,9 @@
 
 .tablaC .columna
 {
-    padding: 5px;
+    padding: 6.5px;
     float: left;
-    width: 85px;
+    width: 85px; 
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
@@ -180,10 +180,10 @@
 
 .tablaB .columna2
 {
-    padding: 1px;
+    padding: 0px;
     float: left;
-    width: 158px;
-    height: 50;
+    width: 160px;
+    height: 25px;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
@@ -194,7 +194,7 @@
 
 .tablaC .columna3
 {
-    padding: 1.3px;
+    padding: 1px;
     float: left;
     width: 76px;
     border-left: 1px solid #ccc;
@@ -205,7 +205,7 @@
 
 .tablaC .columna4
 {
-    padding: 1.3px;
+    padding: 1px;
     float: left;
     width: 76px;
     border-left: 1px solid #ccc;
@@ -268,3 +268,6 @@
 }
 
 
+
+        
+   

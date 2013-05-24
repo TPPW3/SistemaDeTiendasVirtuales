@@ -63,9 +63,11 @@
             <div>
                 Imagen</div>
             <div>
-                <asp:Button ID="Button1" runat="server" Text="Examinar" OnClick="Button1_Click" /></div>
+                
+                <asp:Button ID="Button1" runat="server" value="Examinar" Text="Examinar" OnClick="Button1_Click" /></div>
+                
             <div class="crear">
-                <asp:Button ID="Button2" runat="server" Text="Crear" OnClick="Button1_Click" />
+                <asp:Button ID="Button2" runat="server" Text="Crear" OnClick="Button2_Click" />
             </div>
         </div>
     </body>

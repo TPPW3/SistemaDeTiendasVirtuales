@@ -12,6 +12,7 @@ div.topHeader {
 	    margin: 0px auto 0px auto;
         width: 900px;
         height: 30px;
+        
     }
     
         ol.ulTienda {
@@ -24,6 +25,7 @@ div.topHeader {
         ol.ultienda li {
             margin: 0px;
             padding: 10px;   
+            float: left;
         }
 	
 
