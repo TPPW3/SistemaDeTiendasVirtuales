@@ -1,7 +1,53 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="SistemaDeTiendasVirtuales.index" MasterPageFile="~/Master1.Master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="SistemaDeTiendasVirtuales.index" %>
 
-<asp:Content ID="LALA" runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
-    <!-- MENU CATEGORIAS -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Tu Tienda.com</title>
+    <link rel="StyleSheet" href="css/formato.css" type="text/css" media="screen"/>
+    <link rel="StyleSheet" href="css/estructura.css" type="text/css" media="screen"/>
+    <link rel="Stylesheet" href="~/css/estructura2.css" type="text/css" media="screen"/>
+    
+</head>
+<body>
+    
+        <!-- ENCABEZADO -->
+        <div class="topHeader">
+            
+            <!-- TOP -->
+            <div class="topUp">
+                
+                <ol class="ulTienda">
+                   
+                    <li><a href="pag/logReg/logReg.aspx">mi Tienda</a></li>
+
+                </ol>
+                
+            </div>
+            
+        </div>
+        
+        <!-- CONTENEDOR UNIVERSAL -->
+        <div class="global">
+            
+            <!-- SUBTOP - posible logo y buscador -->
+            <div class="subTop">
+
+                <div class="logo">
+                  
+                </div>
+
+                <div class="buscador">
+                   <form action="pag/usuario/tiendas.aspx"> <input class="busquedaTop" type="text" /> <input class="buttonBusqueda" type="submit" value="Buscar Tienda" /></form>
+                </div>
+               
+            </div>
+            
+            <!-- CONTENIDO -->
+
+            <div class="contenido">
+                <!-- MENU CATEGORIAS -->
     <div class="menuCategoria">
 
             <ul class="categoriaMenu">
@@ -38,6 +84,140 @@
 
     <!-- VISTA DE TIENDAS-->
     <div class="tiendas">
-                    TIENDAS NUEVAS O RECOMENDADAS
+     
+     <div>
+       <a href='pag/usuario/detalle.aspx'>
+        <div class="vistaProducto">
+            <div class="imgProducto">
+              
+            </div>
+            <a>Campera roja/ blanca $250.00</a>
+        </div>
+        </a>
+
+        <a href='pag/usuario/detalle.aspx'>
+        <div class="vistaProducto">
+            <div class="imgProducto">
+            </div>
+            <a>Campera roja/ blanca $250.00</a>
+        </div>
+        </a>
+        <a href='pag/usuario/detalle.aspx'>
+        <div class="vistaProducto">
+            <div class="imgProducto">
+                
+            </div>
+            <a>Campera roja/ blanca $250.00</a>
+        </div>
+        </a>
+        <a href='pag/usuario/detalle.aspx'>
+        <div class="vistaProducto">
+            <div class="imgProducto">
+                
+            </div>
+            <a>Campera roja/ blanca $250.00</a>
+        </div>
+        </a>
+        <a href='pag/usuario/detalle.aspx'>
+        <div class="vistaProducto">
+            <div class="imgProducto">
+               
+            </div>
+            <a>Campera roja/ blanca $250.00</a>
+        </div>
+        </a>
+      </div>
+           <div>
+       <a href='pag/usuario/detalle.aspx'>
+        <div class="vistaProducto">
+            <div class="imgProducto">
+              
+            </div>
+            <a>Campera roja/ blanca $250.00</a>
+        </div>
+        </a>
+
+        <a href='pag/usuario/detalle.aspx'>
+        <div class="vistaProducto">
+            <div class="imgProducto">
+            </div>
+            <a>Campera roja/ blanca $250.00</a>
+        </div>
+        </a>
+        <a href='pag/usuario/detalle.aspx'>
+        <div class="vistaProducto">
+            <div class="imgProducto">
+                
+            </div>
+            <a>Campera roja/ blanca $250.00</a>
+        </div>
+        </a>
+        <a href='pag/usuario/detalle.aspx'>
+        <div class="vistaProducto">
+            <div class="imgProducto">
+                
+            </div>
+            <a>Campera roja/ blanca $250.00</a>
+        </div>
+        </a>
+        <a href='pag/usuario/detalle.aspx'>
+        <div class="vistaProducto">
+            <div class="imgProducto">
+               
+            </div>
+            <a>Campera roja/ blanca $250.00</a>
+        </div>
+        </a>
+      </div>
+           <div>
+       <a href='pag/usuario/detalle.aspx'>
+        <div class="vistaProducto">
+            <div class="imgProducto">
+              
+            </div>
+            <a>Campera roja/ blanca $250.00</a>
+        </div>
+        </a>
+
+        <a href='pag/usuario/detalle.aspx'>
+        <div class="vistaProducto">
+            <div class="imgProducto">
+            </div>
+            <a>Campera roja/ blanca $250.00</a>
+        </div>
+        </a>
+        <a href='pag/usuario/detalle.aspx'>
+        <div class="vistaProducto">
+            <div class="imgProducto">
+                
+            </div>
+            <a>Campera roja/ blanca $250.00</a>
+        </div>
+        </a>
+        <a href='pag/usuario/detalle.aspx'>
+        <div class="vistaProducto">
+            <div class="imgProducto">
+                
+            </div>
+            <a>Campera roja/ blanca $250.00</a>
+        </div>
+        </a>
+        <a href='pag/usuario/detalle.aspx'>
+        <div class="vistaProducto">
+            <div class="imgProducto">
+               
+            </div>
+            <a>Campera roja/ blanca $250.00</a>
+        </div>
+        </a>
+      </div>
+
     </div>
-</asp:Content>
+
+
+            </div>
+                      
+        </div>
+
+</body>
+</html>

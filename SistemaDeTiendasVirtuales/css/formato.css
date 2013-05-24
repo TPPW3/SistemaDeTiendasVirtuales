@@ -15,14 +15,14 @@ div.topHeader {
     }
 input.busquedaTop{
     width: 542px;
-    height: 40px;
+    height: 25px;
     font-family: Arial,Sans-Serif,Verdana;
     font-size: 18px;
     color: #585858;
 }
 input.buttonBusqueda{
     width: 100px;
-    height: 46px;
+    height: 32px;
     background-color:#0B2161;
     border: 0px;
     border-radius: 5px;
@@ -78,4 +78,48 @@ div.logReg a
  {
     font-family: Arial,Sans-Serif,Verdana;
     font-size: 145%;
-     }      
+     }
+     
+ /*-------------DETALLE PRODUTO -----------------*/
+ div.parteB p
+ {
+    font-family: Arial,Sans-Serif,Verdana;
+    font-size: 135%;
+    font-weight:bold;
+    color:#585858;
+   
+    }
+  div.parteB a
+ {
+    font-family: Arial,Sans-Serif,Verdana;
+    font-size: 150%;
+    font-weight:bold;
+    color:#610B0B;
+    }
+ 
+   .buttonDP
+ {
+    border-radius: 5px;
+    border: 0px;
+    width:350px; 
+    height: 35px;
+    font-family: Arial,Sans-Serif,Verdana;
+    font-size: 95%;
+    color:#fff;
+    background-color: #4B8A08;
+    }           
+    
+ div.vistaTiendas 
+ {
+     text-align: center;
+     font-family:font-family: Arial,Sans-Serif,Verdana;
+     font-size: 15px;
+     }
+ 
+  div.parte1 p
+ {  
+    font-family: Arial,Sans-Serif,Verdana;
+    font-size: 100%;
+    font-weight:bold;
+    color:#585858;
+    }        

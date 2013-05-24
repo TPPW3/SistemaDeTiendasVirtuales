@@ -54,9 +54,6 @@
     <Content Include="css\estructura2.css" />
     <Content Include="css\formato.css" />
     <Content Include="index.aspx" />
-    <Content Include="pag\administrador\estTiendas.aspx" />
-    <Content Include="pag\administrador\prodTienda.aspx" />
-    <Content Include="pag\administrador\venTienda.aspx" />
     <Content Include="pag\logReg\activado.aspx" />
     <Content Include="pag\logReg\confirmaMail.aspx" />
     <Content Include="pag\logReg\logReg.aspx" />
@@ -85,19 +82,19 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Master1.Master.cs">
-      <DependentUpon>Master1.Master</DependentUpon>
+    <Compile Include="MasterUsuario.Master.cs">
+      <DependentUpon>MasterUsuario.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Master1.Master.designer.cs">
-      <DependentUpon>Master1.Master</DependentUpon>
+    <Compile Include="MasterUsuario.Master.designer.cs">
+      <DependentUpon>MasterUsuario.Master</DependentUpon>
     </Compile>
-    <Compile Include="MasterAdmin.Master.cs">
-      <DependentUpon>MasterAdmin.Master</DependentUpon>
+    <Compile Include="MasterUsurio.Master.cs">
+      <DependentUpon>MasterUsurio.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MasterAdmin.Master.designer.cs">
-      <DependentUpon>MasterAdmin.Master</DependentUpon>
+    <Compile Include="MasterUsurio.Master.designer.cs">
+      <DependentUpon>MasterUsurio.Master</DependentUpon>
     </Compile>
     <Compile Include="MasterLogin.Master.cs">
       <DependentUpon>MasterLogin.Master</DependentUpon>
@@ -105,27 +102,6 @@
     </Compile>
     <Compile Include="MasterLogin.Master.designer.cs">
       <DependentUpon>MasterLogin.Master</DependentUpon>
-    </Compile>
-    <Compile Include="pag\administrador\estTiendas.aspx.cs">
-      <DependentUpon>estTiendas.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pag\administrador\estTiendas.aspx.designer.cs">
-      <DependentUpon>estTiendas.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="pag\administrador\prodTienda.aspx.cs">
-      <DependentUpon>prodTienda.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pag\administrador\prodTienda.aspx.designer.cs">
-      <DependentUpon>prodTienda.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="pag\administrador\venTienda.aspx.cs">
-      <DependentUpon>venTienda.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pag\administrador\venTienda.aspx.designer.cs">
-      <DependentUpon>venTienda.aspx</DependentUpon>
     </Compile>
     <Compile Include="pag\logReg\activado.aspx.cs">
       <DependentUpon>activado.aspx</DependentUpon>
@@ -221,19 +197,19 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Master1.Master" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="MasterLogin.Master" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="MasterAdmin.Master" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="TiendaVirtual.Master" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="img\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterUsurio.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterUsuario.Master" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

@@ -1,32 +1,29 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TiendaVirtual.master.cs" Inherits="SistemaDeTiendasVirtuales.TiendaVirtual" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterUsuario.master.cs" Inherits="SistemaDeTiendasVirtuales.MasterUsuario1" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
-    <title></title>
-    <link rel="StyleSheet" href="css/estructura.css" type="text/css" media="screen"/>
+    <title>Tu Tienda.com</title>
     <link rel="StyleSheet" href="css/formato.css" type="text/css" media="screen"/>
+    <link rel="StyleSheet" href="css/estructura.css" type="text/css" media="screen"/>
     <link rel="Stylesheet" href="~/css/estructura2.css" type="text/css" media="screen"/>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-
+    
         <!-- ENCABEZADO -->
         <div class="topHeader">
             
             <!-- TOP -->
             <div class="topUp">
                 
-              <ol class="ulTienda">
-                 
-                 <li><a href="/index.aspx">Inicio</a></li>
-                
-                 
-                  
-               </ol>
-                
+                <ol class="ulTienda">
+                   
+                    <li><a href="../../pag/logReg/logReg.aspx">mi Tienda</a></li>
+
+                </ol>
                 
             </div>
             
@@ -36,14 +33,24 @@
         <div class="global">
             
             <!-- SUBTOP - posible logo y buscador -->
-           
+            <div class="subTop">
+
+                <div class="logo">
+                  
+                </div>
+
+                <div class="buscador">
+                   <form action="tiendas.aspx"> <input class="busquedaTop" type="text" /> <input class="buttonBusqueda" type="submit" value="Buscar Tienda" /></form>
+                </div>
+               
+            </div>
             
             <!-- CONTENIDO -->
 
             <div class="contenido">
                 
                 <form id="form1" runat="server">
-                    <div>
+                    <div class="contenido">
                      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
                     </asp:ContentPlaceHolder>
@@ -51,7 +58,7 @@
                 </form>
 
             </div>
-            
+                      
         </div>
 
 </body>
