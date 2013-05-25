@@ -1,5 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="SistemaDeTiendasVirtuales.index" %>
 
+<%@ Register src="Categorias.ascx" tagname="Categorias" tagprefix="uc1" %>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -39,8 +41,7 @@
                 </div>
 
                 <div class="buscador">
-                   <form action="pag/usuario/tiendas.aspx"> <input class="busquedaTop" type="text" /> <input class="buttonBusqueda" type="submit" value="Buscar Tienda" /></form>
-                </div>
+                    <input class="busquedaTop" type="text" /> <input class="buttonBusqueda" type="submit" value="Buscar Tienda" /></div>
                
             </div>
             
@@ -48,40 +49,9 @@
 
             <div class="contenido">
                 <!-- MENU CATEGORIAS -->
-    <div class="menuCategoria">
-
-            <ul class="categoriaMenu">
-                //posible vista de categorias//
-                <li>Accesorios para Veh&iacute;culos</li>
-                <li>Animales y Mascotas</li>
-                <li>Antigüedades</li>
-                <li>Autos, Motos y Otros</li>
-                <li>Bebés</li>
-                <li>Cámaras y Accesorios</li>
-                <li>Celulares y Teléfonos</li>
-                <li>Coleccionables y Hobbies</li>
-                <li>Computación</li> 
-                <li>Consolas y Videojuegos</li> 
-                <li>Deportes y Fitness</li> 
-                <li>Electrodomésticos y Aires Ac.</li>
-                <li>Electrónica, Audio y Video</li> 
-                <li>Entradas para Eventos</li> 
-                <li>Hogar, Muebles y Jardín</li> 
-                <li>Industrias y Oficinas</li> 
-                <li>Inmuebles</li>
-                <li>Instrumentos Musicales</li> 
-                <li>Joyas y Relojes</li> 
-                <li>Juegos y Juguetes</li> 
-                <li>Libros, Revistas y Comics</li> 
-                <li>Música, Películas y Series</li> 
-                <li>Otras categorías</li>
-                <li>Ropa y Accesorios</li>
-                <li>Salud y Belleza</li>
-                <li>Servicios</li>
-                           
-            </ul>
-    </div>
-
+                <form id="form1" runat="server">
+                    <uc1:Categorias ID="Categorias1" runat="server" />
+                </form>
     <!-- VISTA DE TIENDAS-->
     <div class="tiendas">
      <center>Ultimos Productos</center>
