@@ -1,37 +1,21 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="editarProd.aspx.cs" Inherits="SistemaDeTiendasVirtuales.pag.vendedor.editarProd" MasterPageFile="~/TiendaVirtual.master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="editarProd.aspx.cs" Inherits="SistemaDeTiendasVirtuales.pag.vendedor.editarProd" MasterPageFile="~/MasterLogin.Master" %>
 
-<%-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">--%>
-<asp:Content ID="LALA" runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
-    <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>editarProd</title>
-    </head>
-    <body>
-        <div id="registro">
-            <h1>
-                Editar Producto</h1>
-            <div>
-                Nombre</div>
-            <div>
-                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></div>
-            <div>
-                Descripcion</div>
-            <div>
-                <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox></div>
-            <div>
-                Stock</div>
-            <div>
-                <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox></div>
-            <div>
-                Precio</div>
-            <div>
-                <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox></div>
-            <div>
-                Categoria</div>
-            <div>
-                <asp:DropDownList ID="DropDownList1" runat="server">
-                    <asp:ListItem Value="0"> seleccione categoria </asp:ListItem>
-                    <asp:ListItem Value="1"> Accesorios para Veh&iacute;culos</asp:ListItem>
+<asp:Content ID="Editar" runat="server" ContentPlaceHolderID="main">
+
+<form id="editarProd" runat="server">
+  <div class="formulario">
+        <div class="contenidoLogin">
+        
+                <br /><a>Editar Producto</a>
+                <br />
+                <br /><asp:TextBox ID="TextBox1" runat="server">Nombre</asp:TextBox>
+                <br /><asp:TextBox ID="TextBox2" runat="server">Descripcion</asp:TextBox>
+                <br /><asp:TextBox ID="TextBox3" runat="server">Stock</asp:TextBox>
+                <br /><asp:TextBox ID="TextBox4" runat="server">Precio</asp:TextBox>
+                <br />
+                <br /><asp:DropDownList ID="DropDownList1" runat="server">
+                    <asp:ListItem Value="0">Seleccione Categoria </asp:ListItem>
+                    <asp:ListItem Value="1">Accesorios para Veh&iacute;culos</asp:ListItem>
                     <asp:ListItem Value="2">Animales y Mascotas</asp:ListItem>
                     <asp:ListItem Value="3">Antigüedades</asp:ListItem>
                     <asp:ListItem Value="4">Autos, Motos y Otros</asp:ListItem>
@@ -58,14 +42,12 @@
                     <asp:ListItem Value="25">Salud y Belleza</asp:ListItem>
                     <asp:ListItem Value="26">Servicios</asp:ListItem>
                 </asp:DropDownList>
-            </div>
-            <div>
-                Imagen</div>
-            <div>
-                <asp:Button ID="Button1" runat="server" Text="Examinar" OnClick="Button1_Click" /></div>
-            <div class="crear">
-                <asp:Button ID="Button2" runat="server" Text="Grabar" OnClick="Button2_Click" /></div>
-        </div>
-    </body>
-    </html>
+                <br /><asp:Button ID="Button" runat="server" Text="Insertar Imagen" OnClick="Button1_Click" />
+                <br />
+                <br />
+                <br /><asp:Button ID="Button2" runat="server" Text="Grabar" OnClick="Button2_Click" />
+        </div>  
+
+        </div> 
+</form>
 </asp:Content>

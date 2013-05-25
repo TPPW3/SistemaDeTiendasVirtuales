@@ -59,7 +59,23 @@ div.logReg a
        font-size: 15px;
        color: #848484;
         }
-    #main_Button1, #main_Button2
+   
+  div.formulario a 
+{
+    font-family: Arial,Sans-Serif,Verdana;
+    font-size: 200%;
+    }
+    div.formulario input 
+    {
+       width: 250px;
+       height: 25px;
+       margin-top: 8px;
+       font-family: Arial,Sans-Serif,Verdana;
+       font-size: 15px;
+       color: #848484;
+        }
+        
+    #main_Button1, #main_Button2, #main_Button3
     {
         background-color:#0B2161;
         border: 0;
