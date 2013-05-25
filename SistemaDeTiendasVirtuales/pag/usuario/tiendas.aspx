@@ -7,6 +7,7 @@
        <a href='productos.aspx'>
         <div class="vistaTiendas">
             <div class="imgTienda">
+            <img src="../../img/palabraTienda_01.jpg" />
             </div>
             <a>MI TIENDA YA!</a>
         </div>
@@ -15,6 +16,7 @@
         <a href='productos.aspx'>
         <div class="vistaTiendas">
             <div class="imgTienda">
+                <img src="../../img/palabraTienda_01.jpg" />
             </div>
             <a>CARLITOS SHOP</a>
         </div>
@@ -23,6 +25,7 @@
         <a href='productos.aspx'>
         <div class="vistaTiendas">
             <div class="imgTienda">
+            <img src="../../img/palabraTienda_01.jpg" />
             </div>
             <a>MUSIMUNDO</a>
         </div>
@@ -31,6 +34,7 @@
         <a href='productos.aspx'>
         <div class="vistaTiendas">
             <div class="imgTienda">
+            <img src="../../img/palabraTienda_01.jpg" />
             </div>
             <a>SAMSUNG</a>
         </div>
@@ -39,6 +43,7 @@
         <a href='productos.aspx'>
         <div class="vistaTiendas">
             <div class="imgTienda">
+            <img src="../../img/palabraTienda_01.jpg" />
             </div>
             <a>FRAVEGA</a>
         </div>
@@ -50,6 +55,7 @@
        <a href='productos.aspx'>
         <div class="vistaTiendas">
             <div class="imgTienda">
+            <img src="../../img/palabraTienda_01.jpg" />
             </div>
             <a>MI TIENDA YA!</a>
         </div>
@@ -58,6 +64,7 @@
         <a href='productos.aspx'>
         <div class="vistaTiendas">
             <div class="imgTienda">
+            <img src="../../img/palabraTienda_01.jpg" />
             </div>
             <a>CARLITOS SHOP</a>
         </div>
@@ -66,6 +73,7 @@
         <a href='productos.aspx'>
         <div class="vistaTiendas">
             <div class="imgTienda">
+            <img src="../../img/palabraTienda_01.jpg" />
             </div>
             <a>MUSIMUNDO</a>
         </div>
@@ -74,6 +82,7 @@
         <a href='productos.aspx'>
         <div class="vistaTiendas">
             <div class="imgTienda">
+            <img src="../../img/palabraTienda_01.jpg" />
             </div>
             <a>SAMSUNG</a>
         </div>
@@ -82,6 +91,7 @@
         <a href='productos.aspx'>
         <div class="vistaTiendas">
             <div class="imgTienda">
+            <img src="../../img/palabraTienda_01.jpg" />
             </div>
             <a>FRAVEGA</a>
         </div>
@@ -92,6 +102,7 @@
        <a href='productos.aspx'>
         <div class="vistaTiendas">
             <div class="imgTienda">
+            <img src="../../img/palabraTienda_01.jpg" />
             </div>
             <a>MI TIENDA YA!</a>
         </div>
@@ -100,6 +111,7 @@
         <a href='productos.aspx'>
         <div class="vistaTiendas">
             <div class="imgTienda">
+            <img src="../../img/palabraTienda_01.jpg" />
             </div>
             <a>CARLITOS SHOP</a>
         </div>
@@ -108,6 +120,7 @@
         <a href='productos.aspx'>
         <div class="vistaTiendas">
             <div class="imgTienda">
+            <img src="../../img/palabraTienda_01.jpg" />
             </div>
             <a>MUSIMUNDO</a>
         </div>
@@ -116,6 +129,7 @@
         <a href='productos.aspx'>
         <div class="vistaTiendas">
             <div class="imgTienda">
+            <img src="../../img/palabraTienda_01.jpg" />
             </div>
             <a>SAMSUNG</a>
         </div>
@@ -124,6 +138,7 @@
         <a href='productos.aspx'>
         <div class="vistaTiendas">
             <div class="imgTienda">
+            <img src="../../img/palabraTienda_01.jpg" />
             </div>
             <a>FRAVEGA</a>
         </div>

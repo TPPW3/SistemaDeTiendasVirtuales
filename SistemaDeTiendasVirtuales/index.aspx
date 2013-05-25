@@ -84,12 +84,12 @@
 
     <!-- VISTA DE TIENDAS-->
     <div class="tiendas">
-     
+     <center>Ultimos Productos</center>
      <div>
        <a href='pag/usuario/detalle.aspx'>
         <div class="vistaProducto">
             <div class="imgProducto">
-              
+                <img src="img/campera-roja.jpg" width="100" height="100"/>
             </div>
             <a>Campera roja/ blanca $250.00</a>
         </div>
@@ -98,6 +98,7 @@
         <a href='pag/usuario/detalle.aspx'>
         <div class="vistaProducto">
             <div class="imgProducto">
+            <img src="img/campera-roja.jpg" width="100" height="100"/>
             </div>
             <a>Campera roja/ blanca $250.00</a>
         </div>
@@ -105,7 +106,7 @@
         <a href='pag/usuario/detalle.aspx'>
         <div class="vistaProducto">
             <div class="imgProducto">
-                
+                <img src="img/campera-roja.jpg" width="100" height="100"/>
             </div>
             <a>Campera roja/ blanca $250.00</a>
         </div>
@@ -113,7 +114,7 @@
         <a href='pag/usuario/detalle.aspx'>
         <div class="vistaProducto">
             <div class="imgProducto">
-                
+                <img src="img/campera-roja.jpg" width="100" height="100"/>
             </div>
             <a>Campera roja/ blanca $250.00</a>
         </div>
@@ -121,7 +122,7 @@
         <a href='pag/usuario/detalle.aspx'>
         <div class="vistaProducto">
             <div class="imgProducto">
-               
+               <img src="img/campera-roja.jpg" width="100" height="100"/>
             </div>
             <a>Campera roja/ blanca $250.00</a>
         </div>
@@ -131,7 +132,7 @@
        <a href='pag/usuario/detalle.aspx'>
         <div class="vistaProducto">
             <div class="imgProducto">
-              
+              <img src="img/campera-roja.jpg" width="100" height="100"/>
             </div>
             <a>Campera roja/ blanca $250.00</a>
         </div>
@@ -140,6 +141,7 @@
         <a href='pag/usuario/detalle.aspx'>
         <div class="vistaProducto">
             <div class="imgProducto">
+            <img src="img/campera-roja.jpg" width="100" height="100"/>
             </div>
             <a>Campera roja/ blanca $250.00</a>
         </div>
@@ -147,7 +149,7 @@
         <a href='pag/usuario/detalle.aspx'>
         <div class="vistaProducto">
             <div class="imgProducto">
-                
+                <img src="img/campera-roja.jpg" width="100" height="100"/>
             </div>
             <a>Campera roja/ blanca $250.00</a>
         </div>
@@ -155,7 +157,7 @@
         <a href='pag/usuario/detalle.aspx'>
         <div class="vistaProducto">
             <div class="imgProducto">
-                
+                <img src="img/campera-roja.jpg" width="100" height="100"/>
             </div>
             <a>Campera roja/ blanca $250.00</a>
         </div>
@@ -163,7 +165,7 @@
         <a href='pag/usuario/detalle.aspx'>
         <div class="vistaProducto">
             <div class="imgProducto">
-               
+               <img src="img/campera-roja.jpg" width="100" height="100"/>
             </div>
             <a>Campera roja/ blanca $250.00</a>
         </div>
@@ -173,7 +175,7 @@
        <a href='pag/usuario/detalle.aspx'>
         <div class="vistaProducto">
             <div class="imgProducto">
-              
+              <img src="img/campera-roja.jpg" width="100" height="100"/>
             </div>
             <a>Campera roja/ blanca $250.00</a>
         </div>
@@ -182,6 +184,7 @@
         <a href='pag/usuario/detalle.aspx'>
         <div class="vistaProducto">
             <div class="imgProducto">
+            <img src="img/campera-roja.jpg" width="100" height="100"/>
             </div>
             <a>Campera roja/ blanca $250.00</a>
         </div>
@@ -189,7 +192,7 @@
         <a href='pag/usuario/detalle.aspx'>
         <div class="vistaProducto">
             <div class="imgProducto">
-                
+                <img src="img/campera-roja.jpg" width="100" height="100"/>
             </div>
             <a>Campera roja/ blanca $250.00</a>
         </div>
@@ -197,7 +200,7 @@
         <a href='pag/usuario/detalle.aspx'>
         <div class="vistaProducto">
             <div class="imgProducto">
-                
+                <img src="img/campera-roja.jpg" width="100" height="100"/>
             </div>
             <a>Campera roja/ blanca $250.00</a>
         </div>
@@ -205,7 +208,7 @@
         <a href='pag/usuario/detalle.aspx'>
         <div class="vistaProducto">
             <div class="imgProducto">
-               
+               <img src="img/campera-roja.jpg" width="100" height="100"/>
             </div>
             <a>Campera roja/ blanca $250.00</a>
         </div>

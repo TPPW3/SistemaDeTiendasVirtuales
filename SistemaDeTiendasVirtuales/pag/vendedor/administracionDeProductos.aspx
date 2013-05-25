@@ -11,7 +11,6 @@
             <br /><a>Mis Productos</a>
       
         <div class="tablaC">
-
             <div class="p">
                 <div class="titulo">
                     Nombre
@@ -31,27 +30,28 @@
             </div>
             <div class="p">
                 <div class="columna">
-                    datos1
+                    Nombre
                 </div>
                 <div class="columna">
-                    datos2</div>
+                    Descripcion</div>
                 <div class="columna">
-                    datos3</div>
+                    Cantidad</div>
                 <div class="columna">
-                    datos4</div>
+                    $$$</div>
                 <div class="columna">
-                    datos5</div>
+                    Categoría</div>
                 <div class="columna">
-                    datos6</div>
-                <div class="columna">
-                    <asp:LinkButton ID="LinkButton1" runat="server">Editar</asp:LinkButton>
+                    url</div>
+                <div class="columna3">
+                    Editar
                     </div>
-                <div class="columna">
-                <asp:LinkButton ID="LinkButton2" runat="server">Eliminar</asp:LinkButton>
+                <div class="columna3">
+                    Eliminar
                    </div>
             </div>
 
         </div>
+                <br />
                 <br /><asp:Button ID="Button2" runat="server" Text="Agregar Productos" OnClick="Button3_Click"/>
                 <br />
                 <br />

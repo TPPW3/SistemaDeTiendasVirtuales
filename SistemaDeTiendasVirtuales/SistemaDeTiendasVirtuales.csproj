@@ -54,6 +54,8 @@
     <Content Include="css\estructura.css" />
     <Content Include="css\estructura2.css" />
     <Content Include="css\formato.css" />
+    <Content Include="img\campera-roja.jpg" />
+    <Content Include="img\palabraTienda_01.jpg" />
     <Content Include="index.aspx" />
     <Content Include="pag\logReg\activado.aspx" />
     <Content Include="pag\logReg\confirmaMail.aspx" />
@@ -196,9 +198,7 @@
   <ItemGroup>
     <Content Include="TiendaVirtual.Master" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="img\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="MasterUsuario.Master" />
   </ItemGroup>
