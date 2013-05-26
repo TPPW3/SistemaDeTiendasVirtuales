@@ -56,6 +56,7 @@
     <Content Include="css\estructura2.css" />
     <Content Include="css\formato.css" />
     <Content Include="img\campera-roja.jpg" />
+    <Content Include="img\captcha.jpg" />
     <Content Include="img\palabraTienda_01.jpg" />
     <Content Include="index.aspx" />
     <Content Include="pag\logReg\activado.aspx" />

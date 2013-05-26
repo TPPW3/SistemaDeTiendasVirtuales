@@ -22,10 +22,12 @@
             <br /><asp:TextBox ID="TextBox5" runat="server">Mail</asp:TextBox>
             <br /><asp:TextBox ID="TextBox6" runat="server">Contraseña</asp:TextBox>
             <br /><asp:TextBox ID="TextBox7" runat="server">Repetir Contraseña</asp:TextBox>
+            <br /><br /><img src="../../img/captcha.jpg" />
+            <br /><asp:TextBox ID="TextBox8" runat="server">Ingrede el Texto</asp:TextBox>
             <br /><a href="confirmaMail.aspx"><asp:Button ID="Button2" runat="server" Text="Registrate" onclick="Button2_Click" /></a>
             <br />
             <br />
-
+            
           </div>
     </div>
 

@@ -29,7 +29,7 @@
             </div>
             
         </div>
-        
+    
         <!-- CONTENEDOR UNIVERSAL -->
         <div class="global">
             
@@ -41,7 +41,7 @@
                 </div>
 
                 <div class="buscador">
-                    <input class="busquedaTop" type="text" /> <input class="buttonBusqueda" type="submit" value="Buscar Tienda" /></div>
+                    <form action="pag/usuario/tiendas.aspx"><input class="busquedaTop" type="text" /> <input class="buttonBusqueda" type="submit" value="Buscar Tienda" /></form></div>
                
             </div>
             

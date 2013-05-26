@@ -1,5 +1,9 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="misVentas.aspx.cs" Inherits="SistemaDeTiendasVirtuales.pag.vendedor.misVentas" MasterPageFile="~/MasterLogin.Master" %>
 
+<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="link">
+    <a href="../../index.aspx">Inicio</a><a href="administracionDeProductos.aspx">Atras</a>
+</asp:Content>
+
 <asp:Content ID="ventas" runat="server" ContentPlaceHolderID="main">
 <form id="misVentas" runat="server">
 <div class="formulario">   

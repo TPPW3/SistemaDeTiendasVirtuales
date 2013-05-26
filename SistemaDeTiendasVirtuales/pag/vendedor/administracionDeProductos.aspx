@@ -1,5 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="administracionDeProductos.aspx.cs"
     Inherits="SistemaDeTiendasVirtuales.pag.vendedor.administracionDeProductos" MasterPageFile="~/MasterLogin.Master" %>
+<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="link">
+    <a href="../../index.aspx">Inicio</a>
+</asp:Content>
 
 <asp:Content ID="LALA" runat="server" ContentPlaceHolderID="main">
 

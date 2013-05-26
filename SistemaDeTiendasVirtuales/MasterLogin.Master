@@ -10,8 +10,8 @@
     <link rel="StyleSheet" href="css/formato.css" type="text/css" media="screen"/>
     <link rel="Stylesheet" href="~/css/estructura2.css" type="text/css" media="screen"/>
     
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+    
+    
 </head>
 <body>
 
@@ -20,12 +20,12 @@
             
             <!-- TOP -->
             <div class="topUp">
+            <ol class="ulTienda">
+             <li>
+                <asp:ContentPlaceHolder ID="link" runat="server">
                 
-                <ol class="ulTienda">
-                 <li><a href="../../index.aspx">Inicio</a></li>
-                </ol>
-                
-                
+                </asp:ContentPlaceHolder></li>
+            </ol>    
             </div>
         </div>
         
