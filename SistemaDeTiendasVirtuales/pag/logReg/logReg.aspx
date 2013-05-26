@@ -19,7 +19,7 @@
             <br /><a>Registrate</a>
             <br /><asp:TextBox ID="TextBox3" runat="server">Razon Social</asp:TextBox>
             <br /><asp:TextBox ID="TextBox4" runat="server">CUIT</asp:TextBox>
-            <br /><asp:TextBox ID="TextBox5" runat="server">Mail</asp:TextBox>
+            <br /><asp:TextBox ID="TextBox5" runat="server">Email</asp:TextBox>
             <br /><asp:TextBox ID="TextBox6" runat="server">Contraseña</asp:TextBox>
             <br /><asp:TextBox ID="TextBox7" runat="server">Repetir Contraseña</asp:TextBox>
             <br /><br /><img src="../../img/captcha.jpg" />
