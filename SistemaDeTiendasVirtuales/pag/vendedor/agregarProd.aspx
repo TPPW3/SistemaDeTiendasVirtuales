@@ -5,16 +5,16 @@
 
 <asp:Content ID="Formulario" runat="server" ContentPlaceHolderID="main">
 
-<form id="agregarProd" runat="server">
+<form id="agregarProd" runat="server"> 
   <div class="formulario">
         <div class="contenidoLogin">
            
                 <br /><a>Agregar Producto</a>
                 <br />
-                <br /><asp:TextBox ID="TextBox1" runat="server">Nombre</asp:TextBox>
-                <br /><asp:TextBox ID="TextBox2" runat="server">Descripcion</asp:TextBox>
-                <br /><asp:TextBox ID="TextBox3" runat="server">Stock</asp:TextBox>
-                <br /><asp:TextBox ID="TextBox4" runat="server">Precio</asp:TextBox>
+                <br /><asp:TextBox ID="TextBox1" runat="server">Nombre</asp:TextBox><asp:RequiredFieldValidator ID="RequiredFieldValidator1" ControlToValidate="TextBox1" ErrorMessage="El campo es obligatorio" runat="server">*</asp:RequiredFieldValidator><asp:CompareValidator ID="CompareValidator1" ControlToValidate="TextBox1" ErrorMessage="Ingrese su nombre por favor" runat="server" ValueToCompare="NOMBRE" Type="String">*</asp:CompareValidator>
+                <br /><asp:TextBox ID="TextBox2" runat="server">Descripcion</asp:TextBox><asp:RequiredFieldValidator ID="RequiredFieldValidator2" ControlToValidate="TextBox2" ErrorMessage="El campo es obligatorio" runat="server">*</asp:RequiredFieldValidator><asp:CompareValidator ID="CompareValidator2" ControlToValidate="TextBox2" ErrorMessage="Ingrese la descripción por favor" runat="server" ValueToCompare="DESCRIPCION" Type="String">*</asp:CompareValidator>
+                <br /><asp:TextBox ID="TextBox3" runat="server">Stock</asp:TextBox><asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="TextBox3" ErrorMessage="Ingrese un numero entero" ValidationExpression="^\d+$">*</asp:RegularExpressionValidator>
+                <br /><asp:TextBox ID="TextBox4" runat="server">Precio</asp:TextBox><asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox4" ErrorMessage="El precio debe ser en decimales" ValidationExpression="^\d+.\d{2}$">*</asp:RegularExpressionValidator>
                 <br />
                 <br /><asp:DropDownList ID="DropDownList1" runat="server">
                     <asp:ListItem Value="0">Seleccione Categoria </asp:ListItem>
@@ -44,7 +44,7 @@
                     <asp:ListItem Value="24">Ropa y Accesorios</asp:ListItem>
                     <asp:ListItem Value="25">Salud y Belleza</asp:ListItem>
                     <asp:ListItem Value="26">Servicios</asp:ListItem>
-                </asp:DropDownList>
+                </asp:DropDownList><asp:RangeValidator ID="RangeValidator1" MinimumValue="1"  MaximumValue="26" runat="server" ControlToValidate="DropDownList1"  ErrorMessage="Seleccione categoria">*</asp:RangeValidator>
                 <br /><asp:Button ID="Button" runat="server" value="Examinar" Text="Insertar Imagen" OnClick="Button1_Click"/>
                 <br />
                 <br />
